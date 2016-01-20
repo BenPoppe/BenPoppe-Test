@@ -1,0 +1,39 @@
+var woord="Prog";
+var geradenWoord = "....";
+var aantalPogingen=0;
+var positie=1;
+console.log("Te raden woord="+woord);
+while (aantalPogingen < 4) 
+{   aantalPogingen +=1;
+    var letter = prompt("Geef 1 letter?");
+    letter = substr(letter,1);
+ cnsole.log(letter+aantalPogingen);
+//    for (var counter=0;counter<woord.length;counter++) 
+//    {
+//        if (woord.substr(counter,1)=letter);
+//        {
+//            geradenWoord=(geradenWoord.substring(0,counter-1)+letter+
+//            geradenWoord.substring(counter);
+//        }}
+//                         
+//  confirm ((geradenWoord) + (var letter.prompt ("Raad een letter"));
+//    if (woord === geradenWoord) { 
+//        confirm ("Geweldig! Goed geraden in "+
+//        aantalPogingen+" beurten"); 
+//        break;
+//        }
+//   if (letter.length < 1) {
+//        letter = prompt ("U moet wel een letter intikken")
+//        }
+//    for (woord.length)  {
+//        if (woord.indexOf(letter) === -1)    
+//        {
+//        confirm (Jammer, probeer het nog eens!)}
+//      geradenWoord = geradenWoord.substring(positie)
+//        }
+//if(your_string.indexOf('-') === -1)
+//{
+//  alert("no dash found.");
+}
+//    console.log("Poging="+aantalPogingen);
+//    console.log(geradenWoord);
